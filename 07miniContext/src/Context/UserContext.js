@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react'
 
 const UserContext = React.createContext()
 
-export default UserContext
+export default UserContext;
 
 /* 
 1. At first we create a context which will pass the value to the desired component. We don't have to pass the value to every nested component
