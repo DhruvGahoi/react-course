@@ -2,6 +2,7 @@
 import './App.css'
 import Accordian from './Components/Accordian/Index'
 import RandomColor from './Components/RandomColor'
+import StarRating from './Components/StarRating'
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
       {/* <Accordian/> */}
-      <RandomColor/>
+      {/* <RandomColor/> */}
+      <StarRating noOfStar = {10}/>
     </>
   )
 }
